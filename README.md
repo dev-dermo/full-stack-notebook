@@ -27,11 +27,54 @@ cd /path/to/folder
 * `.` refers to the "current" directory
 * `..` refers to the "parent" directory, example usage: `cd ..` to go up one level
 
+## SSH Keys
 
+Used to authenticate your computer without having to enter a password over and over.
+
+### On MacOS, first run:
+```
+ssh-keygen -t rsa
+```
+
+Followed by: 
+```
+pbcopy < ~/.ssh/id_rsa.pub
+```
+
+This places your SSH key onto your clipboard, now go to GitHub, and under `Settings>SSH and GPG keys` paste this new SSH key.
+
+### On Windows, first run:
+```
+ssh-keygen -o
+```
+
+Followed by:
+```
+cat ~/.ssh/id_rsa.pub
+```
+
+This will print out your SSH key which you will manually need to highlight and copy to your clipboard.
+
+Example output: 
+```
+ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAklOUpkDHrfHY17SbrmTIpNLTGK9Tjom/BWDSU
+GPl+nafzlHDTYW7hdI4yZ5ew18JH4JW9jbhUFrviQzM7xlELEVf4h9lFX5QVkbPppSwg0cda3
+Pbv7kOdJ/MTyBlWXFCR+HAo3FXRitBqxiX1nKhXpHAZsMciLq8V6RjsNAQwdsdMFvSlVK/7XA
+t3FaoJoAsncM1Q9x5+3V0Ww68/eIFmb1zuUFljQJKprrX88XypNDvjYNby6vw/Pb0rwert/En
+mZ+AW4OZPnTPI89ZPmVMLuayrD2cE86Z/il8b+gw3r3+1nKatmIkjn2so1d01QraTlMqVSsbx
+NrRFi9wrf+M7Q== schacon@mylaptop.local
+```
+
+Finally, go to GitHub, and under `Settings>SSH and GPG keys` paste this new SSH key.
 
 ## Basic Git
 
-First create repo on GitHub, then in a directory that makes sense such as "/coding-bootcamp-projects", run:
+### Making a Repo on GitHub, 3 important steps
+1. Enter a repo name, with no spaces
+2. Make sure repo is set to "Public"
+3. Click the option to add a README.md file - ***this will make your life much easier!!!***
+
+First create repo on GitHub, then on your machine, in a directory that makes sense such as "/coding-bootcamp-projects", run:
 ```
 git clone git@github.com:diarmuid-murphy/full-stack-notebook.git
 ``` 
