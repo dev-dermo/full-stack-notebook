@@ -29,7 +29,7 @@ cd /path/to/folder
 
 ## SSH Keys
 
-Used to authenticate your computer without having to enter a password over and over.
+> Used to authenticate your computer without having to enter a password over and over.
 
 ### On MacOS, first run:
 ```
