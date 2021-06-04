@@ -1,4 +1,4 @@
-# full-stack-notebook
+# Full Stack Notebook
 
 ## Golden Rules
 * **No spaces** in file, folder, or repo names
