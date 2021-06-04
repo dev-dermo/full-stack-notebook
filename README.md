@@ -3,7 +3,7 @@
 ## Golden Rules
 * **No spaces** in file, folder, or repo names
 * Pay attention to and match letter/word casing 
-* Always `pull` before `push` (when working collaboratively)
+<!-- * Always `pull` before `push` (when working collaboratively) -->
 * Commit early, commit often
 
 ## Command line/terminal operations:
