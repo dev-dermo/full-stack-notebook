@@ -23,9 +23,9 @@ ls -la
 cd /path/to/folder
 ```
 
-* `~` refers to the "Home" directory
-* `.` refers to the current directory
-* `..` refers to the parent directory, example usage: `cd ..` to go up one level
+* `~` refers to the "home" directory
+* `.` refers to the "current" directory
+* `..` refers to the "parent" directory, example usage: `cd ..` to go up one level
 
 
 
