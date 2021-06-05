@@ -98,3 +98,7 @@ git push
 * Off by one error eg, `i = 1` vs `i = 0`
 * Pluralization/casing eg. `Console.log()` vs `console.log()` or `student` vs `students`
 * Wrong/unexpected data types, use `typeof` to confirm data type -->
+
+<!-- https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line -->
+
+<!-- https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal -->
